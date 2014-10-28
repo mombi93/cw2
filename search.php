@@ -20,6 +20,8 @@
 <form method="get" action="search.php" enctype="multipart/form-data" >
       Name  <input type="text" name="name" id="name"/></br><br>
       <input type="submit" name="search" value="search" />
+      <a href="index.php"><input type="button" value="Register"></a> 
+
 </form>
 <?php
     // DB connection info
